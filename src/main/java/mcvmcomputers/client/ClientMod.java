@@ -361,10 +361,6 @@ public class ClientMod implements ClientModInitializer{
         commands.add("gtk");
         commands.add("-device");
         commands.add("virtio-vga");
-        commands.add("-device");
-        commands.add("vfio-pci,host=05:00.0,multifunction=on");
-        commands.add("-device");
-        commands.add("vfio-pci,host=05:00.1");
         commands.add("-netdev");
         commands.add("user,id=net0");
         commands.add("-device");
