@@ -11,7 +11,7 @@ This Mod can use Virtualbox (Not Tested) and QEMU (Boots but there are bugs)
 - Mouse clicks and scroll
 - OpenGL (because its using VNC)
 
-#Planned stuff
+# Planned stuff
 - Not hardcode the ram
 - Add OpenGL to play Roblox or something
 
